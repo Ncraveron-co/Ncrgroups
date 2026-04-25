@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c4a8a;
+}
+
+.logo span {
+  font-size: 16px;
+  color: gray;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+nav ul li.active {
+  color: #2c4a8a;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') no-repeat center/cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  color: white;
+}
+
+.overlay h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.overlay h1 {
+  font-size: 80px;
+  color: gold;
+}
